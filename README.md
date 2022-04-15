@@ -39,7 +39,8 @@ The application is structured as follows:
 
 - In order to run the application you need a Redis instance to connect to. 
 - Update the `application.properties` for the app with the Redis host and port.
-`./gradlew bootRun`
+
+- `./gradlew bootRun`
 
 ## Generate jar
 `./gradlew bootJar`
