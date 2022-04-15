@@ -36,6 +36,9 @@ The application is structured as follows:
 - deduplication: business logic for storing unique ids using Redis and Sets
 
 ## Running the application
+
+- In order to run the application you need a Redis instance to connect to. 
+- Update the `application.properties` for the app with the Redis host and port.
 `./gradlew bootRun`
 
 ## Generate jar
