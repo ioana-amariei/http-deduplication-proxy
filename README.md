@@ -1,6 +1,9 @@
 ## Introduction
 
-Java application that exposes an HTTP API for deduplicating requests.
+Designed and developed a Java application that acts as an HTTP proxy for incoming requests. The application exposes an API endpoint that can receive an ID and another URL endpoint and then calls the endpoint provided as argument with the number of unique IDs received so far. The number of unique IDs received is also periodically written to multiple sinks (e.g., log file, Redis) using the Spring Scheduler mechanism. Tested the load of the application using JMeter.
+
+**Tech: Java, Spring, Spring Boot, Lombok, Redis, JMeter, Docker**
+
 
 ## Application architecture diagram
 
