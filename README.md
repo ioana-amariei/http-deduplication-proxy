@@ -1,6 +1,6 @@
-## Intro
+## Introduction
 
-This repository presents an application that exposes an HTTP API for handling unique requests.
+Java application that exposes an HTTP API for deduplicating requests.
 
 ## Application architecture diagram
 
